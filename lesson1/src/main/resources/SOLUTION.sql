@@ -1,9 +1,9 @@
 CREATE TABLE Student
 (
-    id           BIGINT PRIMARY KEY,
-    name         VARCHAR,
-    birthday     DATE,
-    group_number INT
+    id       BIGINT PRIMARY KEY,
+    name     VARCHAR,
+    birthday DATE,
+    "group"  INT
 );
 
 CREATE TABLE Subject
