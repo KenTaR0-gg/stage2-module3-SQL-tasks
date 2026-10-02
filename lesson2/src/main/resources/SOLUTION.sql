@@ -1,4 +1,4 @@
-INSERT INTO Student (id, name, birthday, "GROUP")
+INSERT INTO Student (id, name, birthday, "group")
 VALUES (1, 'John', '2005-01-01', 1),
        (2, 'Chris', '2005-01-01', 1),
        (3, 'Carl', '2005-01-01', 1),

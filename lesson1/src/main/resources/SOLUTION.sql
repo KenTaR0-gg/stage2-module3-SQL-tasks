@@ -5,6 +5,7 @@ CREATE TABLE Student
     birthday DATE,
     "group"  INT
 );
+
 CREATE TABLE Subject
 (
     id          BIGINT PRIMARY KEY,
@@ -12,11 +13,13 @@ CREATE TABLE Subject
     description VARCHAR,
     grade       INT
 );
+
 CREATE TABLE PaymentType
 (
     id   BIGINT PRIMARY KEY,
     name VARCHAR
 );
+
 CREATE TABLE Payment
 (
     id           BIGINT PRIMARY KEY,
@@ -27,6 +30,7 @@ CREATE TABLE Payment
     FOREIGN KEY (type_id) REFERENCES PaymentType (id),
     FOREIGN KEY (student_id) REFERENCES Student (id)
 );
+
 CREATE TABLE Mark
 (
     id         BIGINT PRIMARY KEY,
