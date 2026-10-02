@@ -3,7 +3,7 @@ CREATE TABLE Student
     id       BIGINT PRIMARY KEY,
     name     VARCHAR,
     birthday DATE,
-    group    INT
+    "group"  INT
 );
 CREATE TABLE Subject
 (
@@ -36,4 +36,3 @@ CREATE TABLE Mark
     FOREIGN KEY (student_id) REFERENCES Student (id),
     FOREIGN KEY (subject_id) REFERENCES Subject (id)
 );
-
