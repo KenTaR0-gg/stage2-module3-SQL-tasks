@@ -3,7 +3,7 @@ CREATE TABLE Student
     id       BIGINT PRIMARY KEY,
     name     VARCHAR,
     birthday DATE,
-    "group"  INT
+    group  INT
 );
 
 CREATE TABLE Subject
